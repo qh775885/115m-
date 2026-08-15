@@ -3,7 +3,7 @@
 `115m` 是一个 115 网盘 Chrome 增强扩展，用来改善文件浏览、图片查看和视频播放体验。
 
 它主要提供列表页媒体预览、增强图片查看器、独立视频播放器、播放进度记忆、压缩包解压等功能。
-
+https://t.me/+1UhyaBZZwbcxZDQ1 频道置顶有功能截图以及扩展压缩包
 ## 功能
 
 ### 独有增强功能
@@ -33,42 +33,16 @@
 
 普通用户建议直接下载发布版使用：
 
-1. 打开本项目 GitHub Releases 页面
 2. 下载最新发布版的 zip 压缩包
 3. 将 zip 解压到一个固定目录，后续不要随意移动或删除
 4. 打开 `chrome://extensions/`
 5. 开启「开发者模式」
 6. 点击「加载已解压的扩展程序」
 7. 选择解压后的扩展目录
+<img width="1147" height="519" alt="image" src="https://github.com/user-attachments/assets/598bc2b7-8293-42b3-93b1-0bb10bc52aa7" />
+<img width="1060" height="658" alt="image" src="https://github.com/user-attachments/assets/c29dcdba-1858-46f7-b3b4-7ff99f7b35fa" />
+
 
 更新版本时，下载新版 zip 后重新解压覆盖或放到新目录，再到扩展管理页点击重新加载。
 
-如果需要自己修改代码或参与开发，可以使用源码构建：
-
-1. 执行 `pnpm install`
-2. 执行 `pnpm build`
-3. 在扩展管理页加载项目构建生成的 `dist/` 目录
-
 请确认扩展来源可信，不要安装来历不明的修改版。
-
-## 权限说明
-
-本扩展申请以下浏览器权限，仅用于实现上述功能：
-
-- `storage` / `unlimitedStorage`：保存播放偏好与预览图缓存
-- `downloads` / `cookies`：下载视频、维持播放鉴权
-- `scripting` / `webNavigation` / `tabs`：在 115 网盘页面注入增强功能、识别页面状态
-
-## 开源协议
-
-本项目采用 [GPL 3.0](LICENSE) 协议开源。
-
-## 说明
-
-感谢以下项目和脚本提供基础、思路或接口参考：
-
-- [115master](https://github.com/cbingb666/115master)：提供了本项目早期基础。
-- [115-魔改](https://sleazyfork.org/zh-CN/scripts/560291-115-%E9%AD%94%E6%94%B9)：部分功能思路整合进 Chrome 扩展。
-- [nap511](https://github.com/zerorooot/nap511)：在线解压功能提供了接口思路参考。
-
-项目作者不懂编程，项目代码主要由 AI 按需求协助开发和维护。
